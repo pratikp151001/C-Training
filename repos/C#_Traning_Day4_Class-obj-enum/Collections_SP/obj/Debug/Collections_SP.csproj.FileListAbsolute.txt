@@ -6,3 +6,11 @@ C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\obj\Debug
 C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\obj\Debug\Collections_SP.csproj.CoreCompileInputs.cache
 C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\obj\Debug\Collections_SP.exe
 C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\obj\Debug\Collections_SP.pdb
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\bin\Debug\Collections_SP.exe.config
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\bin\Debug\Collections_SP.exe
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\bin\Debug\Collections_SP.pdb
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\obj\Debug\Collections_SP.csproj.AssemblyReference.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\obj\Debug\Collections_SP.csproj.SuggestedBindingRedirects.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\obj\Debug\Collections_SP.csproj.CoreCompileInputs.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\obj\Debug\Collections_SP.exe
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\Collections_SP\obj\Debug\Collections_SP.pdb

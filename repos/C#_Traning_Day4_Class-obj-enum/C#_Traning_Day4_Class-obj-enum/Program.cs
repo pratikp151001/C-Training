@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -12,15 +13,18 @@ namespace C__Traning_Day4_Class_obj_enum
     {
         static void Main(string[] args)
         {
+
+           // SortedList<int,int> dsv = new SortedList<int,int>();
+          //  Dictionary<int,int> dsvq = new Dictionary<int, int>();
             try
             {
-                Console.WriteLine("Please enter number 1");
+                Console.Write("Please enter your number 1:");
                 var number1=Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Please enter number 2");
+                Console.Write("Please enter your number2 :");
                 var number2 = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Please enter Operation symbol to perform Operation");
+                Console.Write("Please enter Operation symbol to perform Operation (+,-,*,/,%) :");
                 string oprationSymbol = Console.ReadLine();
 
                 program1 program = new program1();
@@ -51,12 +55,12 @@ namespace C__Traning_Day4_Class_obj_enum
             }
             try
             {
-                Console.WriteLine("How many student you want to Enter");
-                var numberOfObj = Convert.ToInt64(Console.ReadLine());
+                Console.Write("How many student you want to Enter :");
+                var numberOfStudent = Convert.ToInt64(Console.ReadLine());
 
-                Student[] objs = new Student[numberOfObj];
+                Student[] students = new Student[numberOfStudent];
 
-                for (int i = 0; i < numberOfObj; i++)
+                for (int i = 0; i < numberOfStudent; i++)
                 {
                     //  Console.WriteLine("Please Enter obj Name");
                     // var objname=Console.ReadLine();
@@ -65,23 +69,23 @@ namespace C__Traning_Day4_Class_obj_enum
                     //Code
                    
 
-                    objs[i] = new Student();
+                    students[i] = new Student();
 
 
-                    //  objs[i].takeInputs(objs[i]);
-               /*     Console.WriteLine(objs[i].StudentId);
-                    Console.WriteLine(objs[i].StudentName);
-                    Console.WriteLine(objs[i].StudentDOB);
-                    Console.WriteLine(objs[i].StudentRollNumber);
-                    Console.WriteLine(objs[i].StudentEmail);
+                    //  students[i].takeInputs(students[i]);
+               /*     Console.WriteLine(students[i].StudentId);
+                    Console.WriteLine(students[i].StudentName);
+                    Console.WriteLine(students[i].StudentDOB);
+                    Console.WriteLine(students[i].StudentRollNumber);
+                    Console.WriteLine(students[i].StudentEmail);
                     for (int l = 0; l < 5; l++)
                     {
-                        Console.WriteLine(objs[i].StudentGPA[l]);
+                        Console.WriteLine(students[i].StudentGPA[l]);
                     }*/
-                    //Console.WriteLine(objs[i].StudentGPA);
+                    //Console.WriteLine(students[i].StudentGPA);
                 }
 
-                objs[numberOfObj-1].FindCR(objs);
+                students[numberOfStudent-1].FindCr(students);
 
 
             }
@@ -113,24 +117,24 @@ namespace C__Traning_Day4_Class_obj_enum
         public  void Addition(int number1, int number2)
         {
             ans=number1+number2;
-            Console.WriteLine(ans);
+            Console.WriteLine("sum of "+number1+" + "+number2+" is "+ans);
         }
         public void Subtration(int number1, int number2)
         {
             ans = number1 - number2;
-            Console.WriteLine(ans);
+            Console.WriteLine("subtraction of " + number1 + " - " + number2 + " is " + ans);
         }
         public void Multiplication(int number1, int number2)
         {
             ans = number1 * number2;
-            Console.WriteLine(ans);
+            Console.WriteLine("Multiplication of " + number1 + " * " + number2 + " is " + ans);
         }
         public void Division(int number1, int number2)
         {
             try
             {
                 ans = number1 / number2;
-                Console.WriteLine(ans);
+                Console.WriteLine("Division of " + number1 + " / " + number2 + " is " + ans);
             }
             catch (Exception ex)
             {
@@ -170,43 +174,77 @@ namespace C__Traning_Day4_Class_obj_enum
                // Console.WriteLine(studentGPA[i]);
             }
 
-            try
+            //  try
+            //  {
+            bool validId=true;
+            while (validId)
             {
-                Console.WriteLine("Please enter Student id");
-                int studentID = Convert.ToInt32(Console.ReadLine());
-                StudentId = studentID;
-
-                Console.WriteLine("Please enter Student Name");
+                try
+                {
+                    Console.Write("Please enter Student id :");
+                    int studentID = Convert.ToInt32(Console.ReadLine());
+                    StudentId = studentID;
+                    validId = false;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+                Console.Write("Please enter Student Name :");
                 string studentName = Console.ReadLine();
                 StudentName = studentName;
 
-                Console.WriteLine("Please enter Student Date of birth");
-                DateTime studentDob =Convert.ToDateTime(Console.ReadLine());
-                StudentDOB = studentDob;
+            bool validDate = true;
+            while (validDate)
+            {
+                try
+                {
+                    Console.Write("Please enter Student Date of birth (mm/dd/yyyy) :");
+                     DateTime studentDob =Convert.ToDateTime(Console.ReadLine());
+                     StudentDOB = studentDob;
+                    validDate = false;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+            bool validRollnumber = true;
+            while (validRollnumber)
+            {
+                try
+                {
+                    Console.Write("Please enter Student Rollnumber :");
+                    int studentRollnumber = Convert.ToInt32(Console.ReadLine());
+                    StudentRollNumber = studentRollnumber;
+                    validRollnumber = false;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
 
-                Console.WriteLine("Please enter Student Rollnumber");
-                int studentRollnumber = Convert.ToInt32(Console.ReadLine());
-                StudentRollNumber = studentRollnumber;
 
-                
-                bool check = false;
+            bool check = false;
                 do
                 {
-                    Console.WriteLine("Please Proper enter Student email");
+                    Console.Write("Please Proper enter Student email :");
                     string studentEmail = Console.ReadLine();
                     check = EmailCheck(studentEmail);
                 }
                 while (check == false);
                 
                     StudentEmail = studentEmail;
-                    Console.WriteLine("Please enter Student last 5 sem gpa");
+                    Console.WriteLine("Please enter Student last 5 sem gpa :");
                     double[] last5semGPA = new double[5];
                     double cgpa = 0;
                     for (int i = 0; i < 5; i++)
                     {
                         try
                         {
-                            Console.WriteLine("Please enter lasth " + i + "th sem pga");
+                            Console.Write("Please enter lasth " + (i+1) + "th sem GPA :");
 
                             var Gpa = Convert.ToDouble(Console.ReadLine());
                             switch (Gpa)
@@ -226,6 +264,7 @@ namespace C__Traning_Day4_Class_obj_enum
                                     break;
                                 default:
                                     last5semGPA[i] = Convert.ToDouble(studentgpa.three);
+                                    Console.WriteLine("Only 1 to 4 is allow, default 3 is taken");
                                     break;
 
                             }
@@ -235,7 +274,8 @@ namespace C__Traning_Day4_Class_obj_enum
                         }
                         catch (Exception ex)
                         {
-                            Console.WriteLine(ex.Message);
+                            Console.WriteLine("Only 1 to 4 is allow, default 3 is taken");
+
                         }
                         StudentGPA = last5semGPA;
                     }
@@ -248,11 +288,11 @@ namespace C__Traning_Day4_Class_obj_enum
 
                
 
-            }
+          /*  }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-            }
+            }*/
 
 
 
@@ -275,15 +315,15 @@ namespace C__Traning_Day4_Class_obj_enum
 
         }
 
-        public Student(Student other)
+        public Student(Student studentobj)
         {
-            StudentId =other.StudentId;
-            StudentName = other.StudentName;
-            StudentDOB = other.StudentDOB;
-            StudentRollNumber = other.StudentRollNumber;
-            StudentEmail = other.StudentEmail;
-            StudentGPA = other.StudentGPA;
-            StudentCGPA = other.StudentCGPA;
+            StudentId = studentobj.StudentId;
+            StudentName = studentobj.StudentName;
+            StudentDOB = studentobj.StudentDOB;
+            StudentRollNumber = studentobj.StudentRollNumber;
+            StudentEmail = studentobj.StudentEmail;
+            StudentGPA = studentobj.StudentGPA;
+            StudentCGPA = studentobj.StudentCGPA;
 
         }
 
@@ -378,25 +418,25 @@ namespace C__Traning_Day4_Class_obj_enum
            
         }*/
 
-        public void FindCR(Student[] Obj)
+        public void FindCr(Student[] Obj)
         {
             double maxcgpa = 0;
-            string nameOfCR = "";
+            string nameOfCr = "";
             for (int i = 0; i < Obj.Length; i++)
             {
                 Console.WriteLine(Obj[i].StudentCGPA);
                 if(Obj[i].StudentCGPA == maxcgpa)
                 {
-                    nameOfCR += Obj[i].StudentName +" ";
+                    nameOfCr += Obj[i].StudentName +" ";
                 }
 
                 else if (Obj[i].StudentCGPA > maxcgpa)
                 {
                     maxcgpa = Obj[i].StudentCGPA;
-                    nameOfCR = Obj[i].StudentName + " ";
+                    nameOfCr = Obj[i].StudentName + " ";
                 }
             }
-            Console.WriteLine("CR is ==  " + nameOfCR);
+            Console.WriteLine("CR is ==  " + nameOfCr);
 
             // double CRofClass = cgpsOfAllstudents.Max();
 
@@ -412,8 +452,8 @@ namespace C__Traning_Day4_Class_obj_enum
         public static bool EmailCheck(string email)
         {
             // bool check=email.IsMa
-            Regex emailregex = new Regex(@"^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$");
-            bool check = emailregex.IsMatch(email);
+            Regex emailRegex = new Regex(@"^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$");
+            bool check = emailRegex.IsMatch(email);
             return check;
         }
         /*public bool checkeEmail(string Email)

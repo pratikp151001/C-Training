@@ -11,17 +11,30 @@ namespace Collections_SP
     {
         static void Main(string[] args)
         {
+            var students= new List<student>()
+            {
+                new student(){ Id = 1, Name="Bill"},
+            };
+
+            Console.WriteLine(students[0].Name);
+            
+
             var arraylist1 = new ArrayList();
 
             arraylist1.Add(1);
+            arraylist1.Add(1); arraylist1.Add(1); arraylist1.Add(1); arraylist1.Add(1);
+
+            arraylist1.Add(1);
             arraylist1.Add("sd");
-            arraylist1.Add(true);
+          //  arraylist1.Add(true);
             int[] array = { 1, 5, 9, 7 };
             arraylist1.AddRange(array);
 
             arraylist1.Insert(1,"AS");
 
             arraylist1.RemoveAt(1);
+           // arraylist1.Capacity = 9;
+            Console.WriteLine("Asc"+arraylist1.Capacity);
            // arraylist1.InsertRange(2,array);
             foreach (var item in arraylist1)
             {
@@ -37,6 +50,7 @@ namespace Collections_SP
             string s = "vs";
             string[] FA = { "SA", "saC", "sscds" };
             list.AddRange(FA);
+            Console.WriteLine("AScd"+list.Capacity);
 
             foreach (var item in list)
             {
@@ -100,5 +114,22 @@ namespace Collections_SP
             Console.WriteLine(asd.Pop());
             Console.ReadLine();
         }
+    }
+    class student
+    {
+        private int id;  
+        private string name;
+
+        public int Id
+        {
+            get;
+            set;
+        }
+        public string Name
+        {
+            get; set;
+        }
+
+
     }
 }
