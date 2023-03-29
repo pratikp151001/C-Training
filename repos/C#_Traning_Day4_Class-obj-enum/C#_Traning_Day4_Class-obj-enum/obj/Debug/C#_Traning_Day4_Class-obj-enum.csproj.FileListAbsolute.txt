@@ -1,0 +1,8 @@
+C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\C#_Traning_Day4_Class-obj-enum\bin\Debug\C#_Traning_Day4_Class-obj-enum.exe.config
+C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\C#_Traning_Day4_Class-obj-enum\bin\Debug\C#_Traning_Day4_Class-obj-enum.exe
+C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\C#_Traning_Day4_Class-obj-enum\bin\Debug\C#_Traning_Day4_Class-obj-enum.pdb
+C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\C#_Traning_Day4_Class-obj-enum\obj\Debug\C#_Traning_Day4_Class-obj-enum.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\C#_Traning_Day4_Class-obj-enum\obj\Debug\C#_Traning_Day4_Class-obj-enum.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\C#_Traning_Day4_Class-obj-enum\obj\Debug\C#_Traning_Day4_Class-obj-enum.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\C#_Traning_Day4_Class-obj-enum\obj\Debug\C#_Traning_Day4_Class-obj-enum.exe
+C:\Users\hp\source\repos\C#_Traning_Day4_Class-obj-enum\C#_Traning_Day4_Class-obj-enum\obj\Debug\C#_Traning_Day4_Class-obj-enum.pdb

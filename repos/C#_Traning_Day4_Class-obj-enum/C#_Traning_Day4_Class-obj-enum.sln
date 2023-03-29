@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#_Traning_Day4_Class-obj-enum", "C#_Traning_Day4_Class-obj-enum\C#_Traning_Day4_Class-obj-enum.csproj", "{11418678-33F4-4BB7-958E-F2C6236CB816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_SP", "Collections_SP\Collections_SP.csproj", "{CA573EF9-7592-4AC3-AB47-3740581B60C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11418678-33F4-4BB7-958E-F2C6236CB816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11418678-33F4-4BB7-958E-F2C6236CB816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11418678-33F4-4BB7-958E-F2C6236CB816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11418678-33F4-4BB7-958E-F2C6236CB816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA573EF9-7592-4AC3-AB47-3740581B60C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA573EF9-7592-4AC3-AB47-3740581B60C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA573EF9-7592-4AC3-AB47-3740581B60C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA573EF9-7592-4AC3-AB47-3740581B60C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61A8D7F4-89A1-429B-8C31-6996B67D8972}
+	EndGlobalSection
+EndGlobal

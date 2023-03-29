@@ -1,0 +1,7 @@
+C:\Users\hp\source\repos\Day2_C#_Traning\Day2_C#_Traning\bin\Debug\Day2_C#_Traning.exe
+C:\Users\hp\source\repos\Day2_C#_Traning\Day2_C#_Traning\bin\Debug\Day2_C#_Traning.exe.config
+C:\Users\hp\source\repos\Day2_C#_Traning\Day2_C#_Traning\obj\Debug\Day2_C#_Traning.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\Day2_C#_Traning\Day2_C#_Traning\obj\Debug\Day2_C#_Traning.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\Day2_C#_Traning\Day2_C#_Traning\obj\Debug\Day2_C#_Traning.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Day2_C#_Traning\Day2_C#_Traning\obj\Debug\Day2_C#_Traning.exe
+C:\Users\hp\source\repos\Day2_C#_Traning\Day2_C#_Traning\obj\Debug\Day2_C#_Traning.pdb

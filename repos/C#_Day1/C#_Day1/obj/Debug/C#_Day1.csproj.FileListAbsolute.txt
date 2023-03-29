@@ -1,0 +1,8 @@
+C:\Users\hp\source\repos\C#_Day1\C#_Day1\bin\Debug\C#_Day1.exe.config
+C:\Users\hp\source\repos\C#_Day1\C#_Day1\bin\Debug\C#_Day1.exe
+C:\Users\hp\source\repos\C#_Day1\C#_Day1\bin\Debug\C#_Day1.pdb
+C:\Users\hp\source\repos\C#_Day1\C#_Day1\obj\Debug\C#_Day1.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\C#_Day1\C#_Day1\obj\Debug\C#_Day1.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\C#_Day1\C#_Day1\obj\Debug\C#_Day1.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\C#_Day1\C#_Day1\obj\Debug\C#_Day1.exe
+C:\Users\hp\source\repos\C#_Day1\C#_Day1\obj\Debug\C#_Day1.pdb

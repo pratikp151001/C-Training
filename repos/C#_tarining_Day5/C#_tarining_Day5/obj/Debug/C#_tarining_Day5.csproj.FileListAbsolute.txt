@@ -1,0 +1,11 @@
+C:\Users\hp\source\repos\C#_tarining_Day5\C#_tarining_Day5\bin\Debug\C#_tarining_Day5.exe.config
+C:\Users\hp\source\repos\C#_tarining_Day5\C#_tarining_Day5\bin\Debug\C#_tarining_Day5.exe
+C:\Users\hp\source\repos\C#_tarining_Day5\C#_tarining_Day5\bin\Debug\C#_tarining_Day5.pdb
+C:\Users\hp\source\repos\C#_tarining_Day5\C#_tarining_Day5\obj\Debug\C#_tarining_Day5.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\C#_tarining_Day5\C#_tarining_Day5\obj\Debug\C#_tarining_Day5.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\C#_tarining_Day5\C#_tarining_Day5\obj\Debug\C#_tarining_Day5.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\C#_tarining_Day5\C#_tarining_Day5\obj\Debug\C#_tarining_Day5.exe
+C:\Users\hp\source\repos\C#_tarining_Day5\C#_tarining_Day5\obj\Debug\C#_tarining_Day5.pdb
+C:\Users\hp\source\repos\C#_tarining_Day5\C#_tarining_Day5\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hp\source\repos\C#_tarining_Day5\C#_tarining_Day5\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hp\source\repos\C#_tarining_Day5\C#_tarining_Day5\obj\Debug\C#_tarining_Day5.csproj.CopyComplete

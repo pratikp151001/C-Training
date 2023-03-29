@@ -1,0 +1,8 @@
+C:\Users\hp\source\repos\C#_Day3_Training\C#_Day3_Training\bin\Debug\C#_Day3_Training.exe.config
+C:\Users\hp\source\repos\C#_Day3_Training\C#_Day3_Training\bin\Debug\C#_Day3_Training.exe
+C:\Users\hp\source\repos\C#_Day3_Training\C#_Day3_Training\bin\Debug\C#_Day3_Training.pdb
+C:\Users\hp\source\repos\C#_Day3_Training\C#_Day3_Training\obj\Debug\C#_Day3_Training.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\C#_Day3_Training\C#_Day3_Training\obj\Debug\C#_Day3_Training.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\source\repos\C#_Day3_Training\C#_Day3_Training\obj\Debug\C#_Day3_Training.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\C#_Day3_Training\C#_Day3_Training\obj\Debug\C#_Day3_Training.exe
+C:\Users\hp\source\repos\C#_Day3_Training\C#_Day3_Training\obj\Debug\C#_Day3_Training.pdb
