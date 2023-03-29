@@ -91,6 +91,7 @@ namespace Collections_SP
             Stack asd= new Stack();
             asd.Push(arraylist1);
 
+
             foreach (var de in asd)
             {
                 Console.WriteLine(de);
