@@ -1,0 +1,8 @@
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day7_Collections\bin\Debug\C#_Day7_Collections.exe.config
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day7_Collections\bin\Debug\C#_Day7_Collections.exe
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day7_Collections\bin\Debug\C#_Day7_Collections.pdb
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day7_Collections\obj\Debug\C#_Day7_Collections.csproj.AssemblyReference.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day7_Collections\obj\Debug\C#_Day7_Collections.csproj.SuggestedBindingRedirects.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day7_Collections\obj\Debug\C#_Day7_Collections.csproj.CoreCompileInputs.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day7_Collections\obj\Debug\C#_Day7_Collections.exe
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day7_Collections\obj\Debug\C#_Day7_Collections.pdb

@@ -93,14 +93,16 @@ namespace C__Traning_Day4_Class_obj_enum
             {
                 Console.WriteLine(ex.Message);
             }
-            double[] gpa = { 3, 3, 3, 3, 3};
-            DateTime date2 = new DateTime(2012, 12, 25, 10, 30, 50);
-            Student student1= new Student(45, "Pratik", date2, 45, "Pratik@gmail.com", gpa,5);
+            //   double[] gpa = { 3, 3, 3, 3, 3};
+            //  DateTime date2 = new DateTime(2012, 12, 25, 10, 30, 50);
+            //  Student student1= new Student(45, "Pratik", date2, 45, "Pratik@gmail.com", gpa,5);
 
-            Student student2 = new Student(78, "Mehul", date2, 35, "Mehul@gmail.com", gpa,5);
+            //  Student student2 = new Student(78, "Mehul", date2, 35, "Mehul@gmail.com", gpa,5);
+            Student student1 = new Student();
+            Student student2= new Student();
             Student student3 = new Student(student1);
-            Console.WriteLine(student1.StudentName);
-            Console.WriteLine(student3.StudentEmail);
+            Console.WriteLine("Student1 Name is : "+student1.StudentName);
+            Console.WriteLine("Student2 Name is : "+student3.StudentName);
 
            // Student student4 = new Student();
 
@@ -300,7 +302,7 @@ namespace C__Traning_Day4_Class_obj_enum
 
         }
 
-        public Student(int studentId,string studentName,DateTime studentDOB,int studentRollNumber,string studentEmail, double[] studentGPA,double studentCGPA)
+        public Student(int studentId,string studentName,DateTime studentDOB,int studentRollNumber,string studentEmail, double[] studentGPA)
         { 
            // Console.Write("CopyConstructor Called");
             this.StudentId= studentId;
@@ -309,7 +311,7 @@ namespace C__Traning_Day4_Class_obj_enum
             this.studentRollNumber= studentRollNumber;
             this.StudentEmail= studentEmail;
             this.StudentGPA= studentGPA;
-             this.StudentCGPA= studentCGPA;
+            // this.StudentCGPA= studentCGPA;
             
            
 

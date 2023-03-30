@@ -7,10 +7,14 @@ using System.Threading.Tasks;
 
 namespace Collections_SP
 {
+    public delegate void Mydelegate(string msg);
     internal class Program
     {
         static void Main(string[] args)
         {
+            Mydelegate del= Delegates.methodA;
+
+            del("hello");
             var students= new List<student>()
             {
                 new student(){ Id = 1, Name="Bill"},
@@ -131,5 +135,14 @@ namespace Collections_SP
         }
 
 
+    }
+
+   
+    class Delegates
+    {
+        public static void methodA(string msg)
+        {
+            Console.WriteLine("Method Called using Delegate Done");
+        }
     }
 }
