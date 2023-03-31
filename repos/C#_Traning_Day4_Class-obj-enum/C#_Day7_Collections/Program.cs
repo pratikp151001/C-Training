@@ -113,7 +113,7 @@ namespace C__Day7_Collections
         {
             try
             {
-                Console.Write("Please Enter Int you wnat to add : ");
+                Console.Write("Please Enter Int you want to add : ");
                 var inputInt = Convert.ToInt32(Console.ReadLine());
                 sortedList.Add((inputInt));
             }
@@ -206,7 +206,7 @@ namespace C__Day7_Collections
             Console.WriteLine("Displaying All Student Details");
             foreach (StudentAddmission student in studentslist)
             {
-                Console.WriteLine("Student 1 Deatails");
+                Console.WriteLine("Student "+student.StudentName+" Deatails");
                 Console.WriteLine("Student Name : " + student.StudentName);
                 Console.WriteLine("Student Email : " + student.StudentEmail);
                 Console.WriteLine("Student PhoneNumber : " + student.StudentPhone);
@@ -395,7 +395,7 @@ namespace C__Day7_Collections
                 }
                 if (studentPresent)
                 {
-                    Console.WriteLine("Entered Student id Student is not best");
+                    Console.WriteLine("No Student set as best");
                 }
             }
             else

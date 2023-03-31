@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_SP", "Collectio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#_Day7_Collections", "C#_Day7_Collections\C#_Day7_Collections.csproj", "{A83B161E-B74B-4463-AE62-E306B4C213EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#_Day8_trainig", "C#_Day8_trainig\C#_Day8_trainig.csproj", "{21FEE081-350F-4CD2-BE43-ED0501F7DE53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapper_Parc", "AutoMapper_Parc\AutoMapper_Parc.csproj", "{9455FED6-CDF2-43B7-86F7-7DA31A905064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{A83B161E-B74B-4463-AE62-E306B4C213EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A83B161E-B74B-4463-AE62-E306B4C213EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A83B161E-B74B-4463-AE62-E306B4C213EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FEE081-350F-4CD2-BE43-ED0501F7DE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FEE081-350F-4CD2-BE43-ED0501F7DE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FEE081-350F-4CD2-BE43-ED0501F7DE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FEE081-350F-4CD2-BE43-ED0501F7DE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9455FED6-CDF2-43B7-86F7-7DA31A905064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9455FED6-CDF2-43B7-86F7-7DA31A905064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9455FED6-CDF2-43B7-86F7-7DA31A905064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9455FED6-CDF2-43B7-86F7-7DA31A905064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

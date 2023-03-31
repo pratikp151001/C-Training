@@ -1,0 +1,16 @@
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\C#_Day8_trainig.exe.config
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\C#_Day8_trainig.exe
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\C#_Day8_trainig.pdb
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\obj\Debug\C#_Day8_trainig.csproj.AssemblyReference.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\obj\Debug\C#_Day8_trainig.csproj.SuggestedBindingRedirects.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\obj\Debug\C#_Day8_trainig.csproj.CoreCompileInputs.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\obj\Debug\C#_Day8_trainig.exe
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\obj\Debug\C#_Day8_trainig.pdb
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\Newtonsoft.Json.dll
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\Newtonsoft.Json.xml
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\obj\Debug\C#_Day8_trainig.csproj.CopyComplete
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\AutoMapper.Net4.dll
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\AutoMapper.dll
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\AutoMapper.pdb
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\AutoMapper.xml
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\AutoMapper.Net4.pdb
