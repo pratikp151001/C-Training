@@ -1,0 +1,8 @@
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\ROI Calculator\bin\Debug\ROI Calculator.exe.config
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\ROI Calculator\bin\Debug\ROI Calculator.exe
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\ROI Calculator\bin\Debug\ROI Calculator.pdb
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\ROI Calculator\obj\Debug\ROI Calculator.csproj.AssemblyReference.cache
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\ROI Calculator\obj\Debug\ROI Calculator.csproj.SuggestedBindingRedirects.cache
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\ROI Calculator\obj\Debug\ROI Calculator.csproj.CoreCompileInputs.cache
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\ROI Calculator\obj\Debug\ROI Calculator.exe
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\ROI Calculator\obj\Debug\ROI Calculator.pdb

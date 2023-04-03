@@ -9,8 +9,5 @@ D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\obj\Debug\C#_Day8
 D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\Newtonsoft.Json.dll
 D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\Newtonsoft.Json.xml
 D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\obj\Debug\C#_Day8_trainig.csproj.CopyComplete
-D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\AutoMapper.Net4.dll
 D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\AutoMapper.dll
-D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\AutoMapper.pdb
 D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\AutoMapper.xml
-D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\C#_Day8_trainig\bin\Debug\AutoMapper.Net4.pdb

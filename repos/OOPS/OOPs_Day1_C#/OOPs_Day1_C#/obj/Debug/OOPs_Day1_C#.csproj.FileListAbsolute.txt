@@ -1,0 +1,8 @@
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\OOPs_Day1_C#\bin\Debug\OOPs_Day1_C#.exe.config
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\OOPs_Day1_C#\bin\Debug\OOPs_Day1_C#.exe
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\OOPs_Day1_C#\bin\Debug\OOPs_Day1_C#.pdb
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\OOPs_Day1_C#\obj\Debug\OOPs_Day1_C#.csproj.AssemblyReference.cache
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\OOPs_Day1_C#\obj\Debug\OOPs_Day1_C#.csproj.SuggestedBindingRedirects.cache
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\OOPs_Day1_C#\obj\Debug\OOPs_Day1_C#.csproj.CoreCompileInputs.cache
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\OOPs_Day1_C#\obj\Debug\OOPs_Day1_C#.exe
+D:\C#-Git\repos\OOPS\OOPs_Day1_C#\OOPs_Day1_C#\obj\Debug\OOPs_Day1_C#.pdb

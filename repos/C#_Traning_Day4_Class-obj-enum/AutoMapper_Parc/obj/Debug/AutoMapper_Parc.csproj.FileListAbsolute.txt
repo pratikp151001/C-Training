@@ -1,0 +1,13 @@
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\bin\Debug\AutoMapper_Parc.exe.config
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\bin\Debug\AutoMapper_Parc.exe
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\bin\Debug\AutoMapper_Parc.pdb
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\bin\Debug\AutoMapper.dll
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\bin\Debug\System.ValueTuple.dll
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\bin\Debug\AutoMapper.xml
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\bin\Debug\System.ValueTuple.xml
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\obj\Debug\AutoMapper_Parc.csproj.AssemblyReference.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\obj\Debug\AutoMapper_Parc.csproj.SuggestedBindingRedirects.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\obj\Debug\AutoMapper_Parc.csproj.CoreCompileInputs.cache
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\obj\Debug\AutoMapper_Parc.csproj.CopyComplete
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\obj\Debug\AutoMapper_Parc.exe
+D:\C#-Git\repos\C#_Traning_Day4_Class-obj-enum\AutoMapper_Parc\obj\Debug\AutoMapper_Parc.pdb
