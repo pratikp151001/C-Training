@@ -1,0 +1,11 @@
+D:\C#-Git\repos\OOPS\Employee_Details_Project\Employee_Details_Project\bin\Debug\Employee_Details_Project.exe.config
+D:\C#-Git\repos\OOPS\Employee_Details_Project\Employee_Details_Project\bin\Debug\Employee_Details_Project.exe
+D:\C#-Git\repos\OOPS\Employee_Details_Project\Employee_Details_Project\bin\Debug\Employee_Details_Project.pdb
+D:\C#-Git\repos\OOPS\Employee_Details_Project\Employee_Details_Project\obj\Debug\Employee_Details_Project.csproj.AssemblyReference.cache
+D:\C#-Git\repos\OOPS\Employee_Details_Project\Employee_Details_Project\obj\Debug\Employee_Details_Project.csproj.SuggestedBindingRedirects.cache
+D:\C#-Git\repos\OOPS\Employee_Details_Project\Employee_Details_Project\obj\Debug\Employee_Details_Project.csproj.CoreCompileInputs.cache
+D:\C#-Git\repos\OOPS\Employee_Details_Project\Employee_Details_Project\obj\Debug\Employee_Details_Project.exe
+D:\C#-Git\repos\OOPS\Employee_Details_Project\Employee_Details_Project\obj\Debug\Employee_Details_Project.pdb
+D:\C#-Git\repos\OOPS\Employee_Details_Project\Employee_Details_Project\bin\Debug\Newtonsoft.Json.dll
+D:\C#-Git\repos\OOPS\Employee_Details_Project\Employee_Details_Project\bin\Debug\Newtonsoft.Json.xml
+D:\C#-Git\repos\OOPS\Employee_Details_Project\Employee_Details_Project\obj\Debug\Employee_Details_Project.csproj.CopyComplete
