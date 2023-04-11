@@ -228,7 +228,7 @@ namespace Employee_Details_Project
              checkvalidation = true;
             while (checkvalidation)
             {
-                Console.Write("Please Enter 1 for Sales,2 for QA,3 for Marketing,4 for Development,5 for HR ,6 for SEO");
+                Console.Write("Please Enter 1 for Sales,2 for QA,3 for Marketing,4 for Development,5 for HR ,6 for SEO : ");
                 department = (Console.ReadLine()).ToLower().Trim();
 
               //  department = TakeIntInput("Please Enter 1 for Sales,2 for QA,3 for Marketing,4 for Development,5 for HR ,6 for SEO")
@@ -275,6 +275,11 @@ namespace Employee_Details_Project
                 {
                     //DateTime employDOB = employDob.CheckingDate();
                     employeeDOB = DateTime.Parse(employDob);
+                    if (employeeDOB > DateTime.Now)
+                    {
+                        checkvalidation = true;
+                        Console.WriteLine("Date of birth cant be greater than current Date");
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -293,12 +298,18 @@ namespace Employee_Details_Project
                 {
                     //DateTime employDOB = employDob.CheckingDate();
                     employeeDOJ = DateTime.Parse(employDoj);
-                    if(employeeDOJ <employeeDOB)
+                    if(employeeDOJ <=employeeDOB)
                     {
                         checkvalidation = true;
                         Console.WriteLine("Date of joining is older than Date of Birth");
                     }
+                   // Console.WriteLine(employeeDOJ - employeeDOB);
                    // employeeDOJ= employeeDOJ.ToString("dd-MMM-yyyy");
+                   else if ((int)((employeeDOJ - employeeDOB).TotalDays / 365) < 18)
+                    {
+                        checkvalidation = true;
+                        Console.WriteLine("Employee Can't join befor 18 years");
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -307,10 +318,14 @@ namespace Employee_Details_Project
                 }
 
             } while (checkvalidation);
-            var experience= (double)((DateTime.Now - employeeDOJ).TotalDays / 365.242199);
-            //double expMonth= ((DateTime.Now - employeeDOJ).TotalDays % 365.242199)*0.001;
-            //experience = experience + expMonth;
-
+            double experience = 0.0;
+            if ((double)((DateTime.Now - employeeDOJ).TotalDays / 365.242199) > 0)
+            {
+                 experience = (double)((DateTime.Now - employeeDOJ).TotalDays / 365.242199);
+                //double expMonth= ((DateTime.Now - employeeDOJ).TotalDays % 365.242199)*0.001;
+                //experience = experience + expMonth;
+            }
+            
             var employeebirthday= employeeDOB.checkingdate();
             var employeejoining = employeeDOJ.checkingdate();
             Employee employee = new Employee(employeeID, employeeName, employeegender, employeeCity, employeeState, employeeEmail, employeePostalcode, employeePhonenumber, employeeRemark, designation, salary, employeebirthday, employeejoining, department,experience);
@@ -490,80 +505,80 @@ namespace Employee_Details_Project
             } while (runAgain);
         }
     }
-    public static class Validation
-    {
-        public static bool CheckingNull( this string value)
-        {
-            if (string.IsNullOrWhiteSpace(value) || string.IsNullOrEmpty(value))
-            {
-                return true;
-            }
-            return false;
-        }
-        public static bool CheckingOnlyAlphabet(this string str)
-        {
-            Regex onlyAlphabetRegex = new Regex(@"^[A-Za-z]+$");
-            bool check = onlyAlphabetRegex.IsMatch(str.ToString());
-            if (!check)
-            {
-                Console.WriteLine("Please Enter Valid string(Only Alphabetes)");
-                return true;
-            }
+    //public static class Validation
+    //{
+    //    public static bool CheckingNull( this string value)
+    //    {
+    //        if (string.IsNullOrWhiteSpace(value) || string.IsNullOrEmpty(value))
+    //        {
+    //            return true;
+    //        }
+    //        return false;
+    //    }
+    //    public static bool CheckingOnlyAlphabet(this string str)
+    //    {
+    //        Regex onlyAlphabetRegex = new Regex(@"^[A-Za-z]+$");
+    //        bool check = onlyAlphabetRegex.IsMatch(str.ToString());
+    //        if (!check)
+    //        {
+    //            Console.WriteLine("Please Enter Valid string(Only Alphabetes)");
+    //            return true;
+    //        }
 
-            return false;
-        }
-        public static string checkingdate(this DateTime date)
-        {
-            string formattedDate = date.ToString("dd-MMM-yyyy");
-            return formattedDate;
-
-
-        }
-
-        public static bool CheckingPhonenumber(this string phonenumber)
-        {
-            Regex phonenumberRegex = new Regex(@"^\+?[1-9][0-9]{9}$");
-            bool check = phonenumberRegex.IsMatch(phonenumber);
-            if (!check)
-            {
-                Console.WriteLine("Please Enter Valid Phonenumber with 10 digits");
-                return true;
-            }
-
-            return false;
-        }
-        public static bool CheckingPostalnumber(this string pincode)
-        {
-            Regex pincodeRegex = new Regex(@"^[1-9][0-9]{5}$");
-            bool check = pincodeRegex.IsMatch(pincode);
-            if (!check)
-            {
-                Console.WriteLine("Please Enter Valid Pincode with 6 digits");
-                return true;
-            }
-
-            return false;
-        }
-        //public static bool CheckingDateformat(this string date)
-        //{
-
-        //}
+    //        return false;
+    //    }
+    //    public static string checkingdate(this DateTime date)
+    //    {
+    //        string formattedDate = date.ToString("dd-MMM-yyyy");
+    //        return formattedDate;
 
 
-        public static bool CheckingEmail(this string email)
-        {
-           // @"^[^\s@]+@[^\s@]+\.(com|org|edu|info|in)$"
-            Regex emailRegex = new Regex(@"^[^\s@]+@[^\s@]+\.(com|org|edu|info|in)$");
-            bool check = emailRegex.IsMatch(email);
-            if (check)
-            {
-                return false;
-            }
-            else
-            {
-                Console.WriteLine("Please Enter Email valid format(abc@gmail.com)");
-                return true;
-            }
-        }
-    }
+    //    }
+
+    //    public static bool CheckingPhonenumber(this string phonenumber)
+    //    {
+    //        Regex phonenumberRegex = new Regex(@"^\+?[1-9][0-9]{9}$");
+    //        bool check = phonenumberRegex.IsMatch(phonenumber);
+    //        if (!check)
+    //        {
+    //            Console.WriteLine("Please Enter Valid Phonenumber with 10 digits");
+    //            return true;
+    //        }
+
+    //        return false;
+    //    }
+    //    public static bool CheckingPostalnumber(this string pincode)
+    //    {
+    //        Regex pincodeRegex = new Regex(@"^[1-9][0-9]{5}$");
+    //        bool check = pincodeRegex.IsMatch(pincode);
+    //        if (!check)
+    //        {
+    //            Console.WriteLine("Please Enter Valid Pincode with 6 digits");
+    //            return true;
+    //        }
+
+    //        return false;
+    //    }
+    //    //public static bool CheckingDateformat(this string date)
+    //    //{
+
+    //    //}
+
+
+    //    public static bool CheckingEmail(this string email)
+    //    {
+    //       // @"^[^\s@]+@[^\s@]+\.(com|org|edu|info|in)$"
+    //        Regex emailRegex = new Regex(@"^[^\s@]+@[^\s@]+\.(com|org|edu|info|in)$");
+    //        bool check = emailRegex.IsMatch(email);
+    //        if (check)
+    //        {
+    //            return false;
+    //        }
+    //        else
+    //        {
+    //            Console.WriteLine("Please Enter Email valid format(abc@gmail.com)");
+    //            return true;
+    //        }
+    //    }
+    //}
 }
